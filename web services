@@ -1,0 +1,40 @@
+Write the differnce between soap and restful web service?
+ 
+     
+        SOAP                                             REST
+1) SOAP is a protocol.                        1) REST is a architectural style
+ 
+2) stands for SIMPLE OBJECT ACCESS            2) stands for REPRESENTATIONAL STATE TRANSFER.
+PROTOCOL.
+        
+3) can't use rest because it is a             3)REST can use SOAP web services becauseit is 
+protocol,platform& language independent         a concept & can use any protocol like HTTP,SOAP.
+
+4)SOAP uses services interfaces to expose     4)REST uses URI to expose bussiness logic.
+the business logic
+
+5) JAX-WS is a java API for SOAP services.    5)JAX-RS is java API for restfull web services.
+
+6)SOAP defines standards to be strictly       6) not too much standards defined like SOAP.
+followed
+
+7)SOAP permits XML data format only.          7)REST permits different data format such as 
+                                                Plain text, HTML, XML,JSON,etc.
+8)SOAP is less preferred than REST.           8)REST is more preferred than SOAP.
+
+9)SOAP defines its own security.              9)RESTful web services inherits security 
+                                                measures from the underlying transport
+
+Q2) what are http methods?
+
+HTTP is a protocol, or a definite set of rules, for 
+accessing resources on the web
+
+
+GET:GET is used to request(only read) data from a specified resource.
+POST: we can only read write data
+PUT: we can read write and update data
+
+DELETE: use to delete the data.
+PATCH:With PATCH, you can update part of a resource 
+by simply passing in the data of the field to be updated.
